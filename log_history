@@ -1,0 +1,21 @@
+ 2000  ls
+ 2001  cd gb
+ 2002  ls
+ 2003  touch pet_animals
+ 2004  echo "собаки" >> pet_animals
+ 2005  echo "кошки" >> pet_animals
+ 2006  echo "хомяки" >> pet_animals
+ 2007  cat pet_animals
+ 2008  touch pack_animals
+ 2009  echo "лошади" >> pack_animals
+ 2010  echo "верблюды" >> pack_animals
+ 2011  echo "ослы" >> pack_animals
+ 2012  cat pack_animals
+ 2013  cat pet_animals pack_animals > unification
+ 2014  cat unification
+ 2015  mv unification human_friends
+ 2016  cat human_friends
+ 2017  mkdir animal_nursery
+ 2018  mv human_friends animal_nursery
+ 2019  cd animal_nursery
+ 2020  history 21 > log_history
