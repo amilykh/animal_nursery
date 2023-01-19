@@ -19,3 +19,15 @@
  2018  mv human_friends animal_nursery
  2019  cd animal_nursery
  2020  history 21 > log_history
+    4  cat LICENSE
+    5  touch README.md
+    6  vim README.md
+    7  cat README.md
+    8  pip freeze > requirements.txt
+    9  cat requirements.txt
+   10  git st
+   11  git add .
+   12  git commit -am "Preconfig"
+   13  git hist
+   14  history
+   15  history 12 >> log_history
